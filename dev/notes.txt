@@ -1,5 +1,5 @@
 -- create a HTML page and run in live server => OK
 -- make a get repository and push => OK
 -- css file => OK
--- create javascript file with console.log test
-
+-- create javascript file with console.log test => OK
+-- change text on page with javascript => OK
