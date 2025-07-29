@@ -1,4 +1,5 @@
 -- create a HTML page and run in live server => OK
--- make a get repository and push
+-- make a get repository and push => OK
+-- css file => OK
 
 
