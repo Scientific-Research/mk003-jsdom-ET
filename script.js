@@ -2,6 +2,7 @@ console.log('Javascript works!');
 
 const messageElem = document.querySelector('.message');
 const btn = document.querySelector('.btn');
+let clicked = false;
 
 messageElem.innerText = 'THIS IS A NEW TEXT!';
 // messageElem.innerHTML = 'THIS IS A NEW TEXT!';
@@ -11,5 +12,14 @@ console.log(messageElem);
 // Buttton
 btn.addEventListener('click', () => {
   // console.log('hallo');
-  messageElem.innerText = 'You clicked the button now!';
+
+  if (!clicked) {
+    messageElem.innerText = 'You clicked the button now!';
+    clicked = true;
+    console.log(clicked);
+  } else {
+    messageElem.innerText = 'THIS IS A NEW TEXT!';
+    clicked = false;
+    console.log(clicked);
+  }
 });
