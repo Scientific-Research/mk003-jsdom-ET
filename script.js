@@ -15,10 +15,12 @@ btn.addEventListener('click', () => {
 
   if (!clicked) {
     messageElem.innerText = 'You clicked the button now!';
+    btn.textContent = 'Clicked!';
     clicked = true;
     console.log(clicked);
   } else {
     messageElem.innerText = 'THIS IS A NEW TEXT!';
+    btn.textContent = 'UnClicked!';
     clicked = false;
     console.log(clicked);
   }
