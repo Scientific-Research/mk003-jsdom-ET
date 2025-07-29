@@ -3,3 +3,4 @@
 -- css file => OK
 -- create javascript file with console.log test => OK
 -- change text on page with javascript => OK
+-- create a button that changes text on the screen
