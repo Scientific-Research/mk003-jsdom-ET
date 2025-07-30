@@ -4,3 +4,10 @@
 -- create javascript file with console.log test => OK
 -- change text on page with javascript => OK
 -- create a button that changes text on the screen => OK
+
+-- attach click event in onClick
+--implement onkeydown
+
+--Chnage the app from a test app to a Flashcard app
+-- publish at Netlify
+-- test on smartphone
